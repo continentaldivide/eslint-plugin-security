@@ -20,12 +20,22 @@ yarn add --dev eslint-plugin-security
 
 ## Usage
 
+### **[.eslintrc.json](https://eslint.org/docs/latest/use/configure/configuration-files)**
+
 Add the following to your `.eslintrc` file:
 
 ```js
 "extends": [
   "plugin:security/recommended"
 ]
+```
+
+### [`eslint.config.js`](https://eslint.org/docs/latest/use/configure/configuration-files-new) (requires eslint>=v8.23.0)
+
+```js
+const securityRecommended = require('eslint-plugin-security/configs/recommended');
+
+module.exports = [securityRecommended];
 ```
 
 ## Developer guide
