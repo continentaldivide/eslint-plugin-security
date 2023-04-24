@@ -20,7 +20,7 @@ yarn add --dev eslint-plugin-security
 
 ## Usage
 
-### **[.eslintrc.json](https://eslint.org/docs/latest/use/configure/configuration-files)**
+### **[eslintrc](https://eslint.org/docs/latest/use/configure/configuration-files)**
 
 Add the following to your `.eslintrc` file:
 
